@@ -1,12 +1,12 @@
 .contents {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     flex-direction: column;
 }
 
 .content {
     display: flex;
-    padding: 1.5rem 0;
+    padding: 1.25rem 0;
     align-items: center;
 }
 
