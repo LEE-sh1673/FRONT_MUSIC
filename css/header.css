@@ -1,0 +1,32 @@
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header::after {
+    content: "";
+    flex: 1 1 0;
+}
+
+.header__column {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__column:first-child {
+    justify-content: flex-start;
+}
+
+.header__column:last-child {
+    text-align: center;
+}
+
+.header__column:first-child span,
+.header__column .header__title {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
